@@ -10,11 +10,12 @@
   "containerDefinitions": [
     {
       "name": "flask-container",
-      "image": "138852021484.dkr.ecr.ap-south-1.amazonaws.com/app-ecr:IMAGE_TAG",
+      "image": "138852021484.dkr.ecr.ap-south-1.amazonaws.com/app-ecr:23",
       "essential": true,
       "portMappings": [
         {
           "containerPort": 80,
+          "hostPort": 80,
           "protocol": "tcp"
         }
       ]
