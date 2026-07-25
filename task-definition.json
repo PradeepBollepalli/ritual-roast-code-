@@ -10,7 +10,7 @@
   "containerDefinitions": [
     {
       "name": "flask-container",
-      "image": "138852021484.dkr.ecr.ap-south-1.amazonaws.com/ecr:IMAGE_TAG",
+      "image": "138852021484.dkr.ecr.ap-south-1.amazonaws.com/app-ecr:IMAGE_TAG",
       "essential": true,
       "portMappings": [
         {
